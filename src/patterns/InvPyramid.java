@@ -1,4 +1,4 @@
-package Patterns;
+package patterns;
 
 public class InvPyramid {
         public static void main (String[]args){

@@ -14,6 +14,6 @@ public class MasterTriangle {
             }
             System.out.println();
         }
-
+//
     }
     }

@@ -10,6 +10,6 @@ public class LTriangle {
            }
            System.out.println();
        }
-
+ //
    }
 }

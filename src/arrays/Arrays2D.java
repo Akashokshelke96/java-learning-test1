@@ -11,6 +11,11 @@ public class Arrays2D {
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
+
         }
+        int[][] ary = new int[][]{
+                {90, 20830, 89}, {60, 40, 67}, {50, 10, 85},{12,45,78},{56,98,86}};
+        System.out.println(ary[2][2]);
+        }
+
     }
-}

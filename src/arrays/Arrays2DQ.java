@@ -1,33 +1,44 @@
 package arrays;
 
 import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
 public class Arrays2DQ {
-    public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        int[][]matrix = new int[6][6];
 
-        for(int i = 0; i < 6; i++)
-        {
-            for(int j = 0; j < 6; j++)
+
+
+        public static void main(String[] args) {
+            Scanner in = new Scanner(System.in);
+            int arr[][] = new int[6][6];
+            int maxSum = Integer.MIN_VALUE;;
+            int sum = 0;
+
+            for(int i=0; i < 6; i++)
             {
-                matrix[i][j]=scan.nextInt();
-            }
-        }
-        int sum = 0, max = 0;
-        for(int i = 0; i < 4;i++)
-        {
-            for(int j = 0; j < 4; j++)
-            {
-                sum = (matrix[i][j] + matrix[i][j + 1] + matrix[i][j + 2]) + (matrix[i + 1][j + 1]) + (matrix[i + 2][j] + matrix[i + 2][j + 1] + matrix[i + 2][j + 2]);
-
-                if(sum > max)
+                for(int j=0; j < 6; j++)
                 {
-                    max = sum;
+                    arr[i][j] = in.nextInt();
+
+                    if(i > 1 && j > 1)
+                    {
+                        sum = arr[i][j] + arr[i][j - 1] + arr[i][j - 2]
+                                + arr[i - 1][j - 1]
+                                + arr[i - 2][j] + arr[i - 2][j - 1] + arr[i -2][j - 2];
+
+                        if(sum > maxSum)
+                        {
+                            maxSum = sum;
+                        }
+                    }
                 }
             }
+
+            System.out.println(maxSum);
         }
-        System.out.println(max);
+
     }
-}

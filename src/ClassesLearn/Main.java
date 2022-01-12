@@ -6,6 +6,7 @@ public class Main {
         Customer customer2 = new Customer("Nishu", "Rajoriya","232 - BakerStreet","9494475894" );
         System.out.println(customer1.getDetails());
         System.out.println(customer2.getDetails());
+        System.out.println(customer1.getDial());
     }
 }
 

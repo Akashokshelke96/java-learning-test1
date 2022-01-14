@@ -9,8 +9,8 @@ public class Main {
         System.out.println(customer1.getDial());
         Car tata = new Car("BMW","SSW",2019 );
         System.out.println(tata.getPrice());
-        Car AstonMartin = new Car("AstonMartin","SSR",2020);
-        System.out.println(AstonMartin.getPrice());
+        Car superb = new Car("AstonMartin","SSR",2020);
+        System.out.println(superb.getPrice());
     }
 }
 

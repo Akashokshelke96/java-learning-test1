@@ -12,7 +12,7 @@ public class Main {
     }
 
     private static double getSpentLimit(Creditcard cc) {
-        return 3000;
+        return 30000;
     }
 
     public static double getAvailableLimit(Card card1) {

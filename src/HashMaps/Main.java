@@ -15,11 +15,12 @@ public class Main {
         ms1.put("shelke" , 243677);
 
         Set<String> keys = ms1.keySet();
-        for(String key : keys) {
-            System.out.println("Key is " + key);
+        for(String k : keys) {
+            System.out.println("Key is " + k);
         }
         System.out.println("==============");
         Set<Map.Entry<String, Integer>> entries = ms1.entrySet();
+
         for(Map.Entry<String, Integer> entry: entries) {
             System.out.println("Key: " + entry.getKey() + " Value: " + entry.getValue());
         }

@@ -1,8 +1,6 @@
 package HashMaps;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class Iteration {
     public static void main(String[] args) {
@@ -17,6 +15,14 @@ public class Iteration {
         while (it.hasNext()) {
             System.out.println(it.next() );
         }
+        List<Integer> elements = new ArrayList<>();
+        elements.add(35);
+        elements.add(56);
+
+       // mp.removeAll(elements);
+        System.out.println(mp);
+        mp.retainAll(elements);
+        System.out.println();
 
     }
 }

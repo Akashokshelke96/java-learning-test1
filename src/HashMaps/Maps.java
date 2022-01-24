@@ -26,6 +26,7 @@ public class Maps {
         mp.replace("tesla", 22223);
         System.out.println(mp);
         System.out.println(mp.keySet());
+        System.out.println(mp.hashCode());
 
     }
 

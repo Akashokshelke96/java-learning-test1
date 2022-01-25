@@ -1,4 +1,4 @@
-package ClassesLearn;
+package classesLearn;
 
 public class Car {
     String brandName;

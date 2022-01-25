@@ -1,4 +1,4 @@
-package ClassesLearn;
+package classesLearn;
 
 public class Customer {
     String firstName;

@@ -6,5 +6,6 @@ public class Exercise2 {
         for (int i = name.length() - 1 ; i >= 0; i--) {
             System.out.println("char at: " + name.charAt(i));
         }
+        //printing charAt reverse of String
     }
 }

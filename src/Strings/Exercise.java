@@ -19,6 +19,7 @@ public class Exercise {
             var = end + 1 ;
         }
      //   System.out.println(str.substring(34,66) + "  " + str.substring(66));
+     //Printing  specific substrings in a  long repetitive string.
 
     }
 }

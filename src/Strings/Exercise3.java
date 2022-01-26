@@ -6,7 +6,7 @@ public class Exercise3 {
             if (i % 2 == 0){
                 System.out.println(i);
             }
-        }
+        }// this print number zero to 100 all even
 
     }
 }

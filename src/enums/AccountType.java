@@ -1,16 +1,27 @@
 package enums;
 
 public enum AccountType {
-    savingsAccount(5000),
-    currentAccount(100000),
-    jointAccount(12000);
+    savingsAccount(15000,1),
+    currentAccount(10000,1),
+    jointAccount(122222,2);
+
+  private double minBalance;
+
+    private int noOfOwners;
 
 
-    private double minBalance;
-    AccountType (double minB){
-    minBalance = minB;
+  AccountType(double minB, int owners){
+   this.minBalance = minB;
+    this.noOfOwners = owners;
+
 }
+
+
     double getMinBalance() {
         return minBalance;
     }
+    public int getNoOfOwners() {
+        return noOfOwners;
+    }
 }
+

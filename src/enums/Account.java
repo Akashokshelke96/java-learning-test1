@@ -28,7 +28,7 @@ public class Account {
     }
 
     public AccountType getAccountType() {
-        return accountType;
+    return accountType;
     }
 
     public void setAccountType(AccountType accountType) {

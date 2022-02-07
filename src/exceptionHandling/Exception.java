@@ -14,4 +14,8 @@ public class Exception {
             ex.printStackTrace();
         }
     }
+    public void debitMoney(String account) throws TransactionDeclinedException {
+        throw new TransactionDeclinedException(account + " does not have enough balance!");
+
+    }
 }

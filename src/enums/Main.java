@@ -1,5 +1,7 @@
 package enums;
 
+import exceptionHandling.TransactionDeclinedException;
+
 public class Main {
     public static void main(String[] args) {
         try {

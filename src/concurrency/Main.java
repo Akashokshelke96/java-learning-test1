@@ -6,8 +6,8 @@ public class Main {
        // for (int i = 0 ; i < 5 ; i++){
             Printer printer = new Printer(2);
             printer.start();
-            Thread.sleep(500);
-            //printer.interrupt();
+       //     Thread.sleep(700);
+            printer.interrupt();
 
 
             // Thread th = new Thread(new Printer(i)); // running all the threads in parallel

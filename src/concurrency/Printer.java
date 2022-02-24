@@ -9,18 +9,24 @@ public class Printer extends Thread {
     }
     @Override
     public void run() {
-        doPrinting();
-
-
-    }
-    public void doPrinting(){
-        System.out.println("i am going to sleep " + num);
         try {
-            Thread.sleep(5000); //sleeps for 5 seconds and then again continue
-            System.out.println("i am awake now " + num);
+            doPrinting();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+
+    }
+    public void doPrinting() throws InterruptedException {
+        System.out.println("i am going to sleep " + num);
+        for (int i =0 ; i< 1000 ; i++) {
+            System.out.println("i = " + i);
+            if(Thread.interrupted()){
+                System.out.println("i am interrupted but i dont care");
+                Thread.sleep(4000);
+            }
+            }
+        System.out.println("Printer no = " + num );
+        }
     }
 
-}

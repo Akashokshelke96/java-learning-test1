@@ -3,7 +3,7 @@ package concurrency;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         BankAccount bankAccount = new BankAccount(100);
-        for(int i = 0 ; i < 10  ; i++) {
+        for(int i = 0 ; i < 5  ; i++) {
             Printer printer = new Printer(i, bankAccount);
             printer.start();
 

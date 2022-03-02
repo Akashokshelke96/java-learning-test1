@@ -16,6 +16,6 @@ public class Arrays1 {
         }
         System.out.println(arr1);
 
-
+//this is an arraylist example
     }
 }

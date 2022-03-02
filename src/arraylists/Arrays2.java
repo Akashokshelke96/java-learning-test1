@@ -17,6 +17,6 @@ public class Arrays2 {
             System.out.println(iter.next());
             System.out.println(arr1.listIterator());
         }
-    }
+    }// this is an arraylist example 2
 }
 

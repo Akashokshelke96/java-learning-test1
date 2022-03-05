@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Arrays2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// this class is to learn arraylist
         ArrayList<String> arr1 = new ArrayList<>();
         arr1.add("aksh");
         arr1.add("aksha");

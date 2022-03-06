@@ -16,5 +16,7 @@ public class BankAccount {
     public synchronized void updateBalance(int balance) {
         this.balance += balance;
     }
+    //this method is to update balance
+
 }
 

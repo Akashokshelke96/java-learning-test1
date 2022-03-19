@@ -2,7 +2,7 @@ package questions;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class Calculator {//this is the calcultor class using Float
         public static void main(String args[])
         {
             float a, b, res;

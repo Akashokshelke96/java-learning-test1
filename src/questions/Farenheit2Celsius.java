@@ -2,7 +2,7 @@ package questions;
 
 import java.util.Scanner;
 
-public class Farenheit2Celsius {
+public class Farenheit2Celsius {//this is the program to convert Farenheit to degree Celcius
         public static void main(String[] args) {
             float temperatue;
             Scanner in = new Scanner(System.in);

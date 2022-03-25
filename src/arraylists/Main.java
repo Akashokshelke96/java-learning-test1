@@ -2,7 +2,7 @@ package arraylists;
 
 import java.util.ArrayList;
 
-public class Main {// main class of arraylist
+public class Main {// main class of arraylist to start
     public static void main(String[] args) {
         ArrayList<String> arr = new ArrayList<>();
         arr.add("Hello");

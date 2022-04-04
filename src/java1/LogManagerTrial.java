@@ -9,7 +9,7 @@ public class LogManagerTrial {
         LogManager logManager = LogManager.getLogManager();
         Logger logger = logManager.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
-        logger.log(Level.INFO,"this is me again log manager");
+        logger.log(Level.SEVERE,"this is me again log manager");
                 System.out.println("yes ");
         }
     }

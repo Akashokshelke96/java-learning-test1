@@ -6,9 +6,10 @@ import java.util.logging.Logger;
 
 public class LogManagerTrial {
             public static void main(String args[]) {
-          java.util.logging.LogManager logManager = java.util.logging.LogManager.getLogManager();
+        LogManager logManager = LogManager.getLogManager();
+        Logger logger = logManager.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
-          Logger logger = logManager.getLogger(Logger.GLOBAL_LOGGER_NAME);
-          logger.log(Level.INFO,"yes");
+        logger.log(Level.INFO,"this is me again log manager");
+                System.out.println("yes ");
         }
     }

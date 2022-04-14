@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ClassA {
 
     public static void main(String[] args) {
-
+//learning scaner calss basics
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
         if (N % 2 != 0) {

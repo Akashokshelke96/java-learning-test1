@@ -10,7 +10,7 @@ import java.util.regex.*;
 
 public class ClassB {
 
-
+// scanner IF else ladder learning basics
 
     private static final Scanner scanner = new Scanner(System.in);
 

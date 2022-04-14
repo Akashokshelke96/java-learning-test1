@@ -1,7 +1,7 @@
 package loops;
 
 public class ForLoops {
-    public static void main(String[] args) {//string reversal
+    public static void main(String[] args) {//string reversal by setting any string as str
 
         String str = "akashkumarshelke";
         System.out.println(str.length());
